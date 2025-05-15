@@ -1,0 +1,30 @@
+{
+  "name": "discord-reminder-bot",
+  "version": "1.0.0",
+  "description": "通学・天気・タスク・ニュースを自動通知する Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "notion",
+    "weather",
+    "news",
+    "reminder"
+  ],
+  "author": "Takashou",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.5",
+    "cron": "^2.3.0",
+    "dayjs": "^1.11.9",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "rss-parser": "^3.12.0",
+    "uuid": "^9.0.0"
+  }
+}
