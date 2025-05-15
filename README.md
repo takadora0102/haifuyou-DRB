@@ -12,7 +12,7 @@
 ## ⚙️ セットアップ手順
 
 ```bash
-git clone https://github.com/あなたのユーザー名/discord-reminder-bot.git
+git clone https://github.com/あなたのユーザー名/haifuyou-DRB.git
 cd discord-reminder-bot
 npm install
 cp .env.example .env  # 自分のAPIキーを.envに入力
